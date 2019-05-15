@@ -3,7 +3,7 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
-html {
+body {
     background-image: url("images/index.jpeg");
     background-size: cover;
 }
@@ -15,4 +15,9 @@ body {
 
 #body  {
     font-family: 'EB Garamond', serif;
+}
+
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
