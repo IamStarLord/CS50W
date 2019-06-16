@@ -1,0 +1,32 @@
+descansa: rests
+duerme: sleeps
+escuchar: listening to
+todo el dia: all day long
+que: what
+sobre: about
+espere: wait
+puedes: you can
+puedes hablar: you can talk
+no puede: can'talk
+su: her
+por aqui: for here/around here
+necesitamos: we need 
+cambiar: to change
+primero: first
+vamos a: let us
+comida: food
+me encanta el bistec: I love steak
+mas: more
+que dices: what are you saying
+por cierto: btw
+nueva: new
+cama: bed 
+pero: but
+durante: during 
+semana: week 
+prefieres: prefieres
+afuera: outside
+sonrie: smiles
+extranos: stange
+suenos: dreams
+trbajo: work

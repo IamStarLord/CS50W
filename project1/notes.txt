@@ -1,0 +1,27 @@
+The sessionmaker call creates a factory. This factory
+when called, creates a new session(which is a regular python class)
+with the given configuration assignment. We typicaly configure the 
+session to specify a an engine for connection resources.
+
+The session generated will use the engine to aquire connection resources.
+This association is setup using the bind argument.
+
+Place the sessionmaker factory at the global level.
+The factory can be used by the rest of the application 
+as the source of new session instances.
+
+Flask Session:
+Session is data stored on server. Unlike cookies, small files which are stored on client side.
+Cookies can be accessed by both the web server and the client, allows server to deliver a tailored
+page to a particular user.
+Session is the time interval when a client logs into a server and logs out of it.
+Session is stored in a temporary directory on the server.
+
+Each client is assigned a session id. The data is stored on top of cookies.
+session object is a dictionary  object containig key-value pairs.
+
+Session['username'] = 'admin'
+
+
+For session, the user could look at the content of the cookies but not modify it
+unless they know the secret key used for signing

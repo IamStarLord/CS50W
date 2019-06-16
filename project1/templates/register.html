@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Register
+{% endblock %}
+
+{% block body %}
+    <form action="{{ url_for('register') }}">  
+        <div class="row align-items-center justify-content-center">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="inputPassword">Username</label>
+                        <input type="text" name="username" class="form-control" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">Password</label>
+                        <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+        </div>
+    </form>
+{% endblock %}
